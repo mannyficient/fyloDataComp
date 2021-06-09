@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="frontendmentor challenge" />
+    <meta name="robot" content="index.follow" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+      <main>
+        <section class="control-pane">
+          <img src="./images/logo.svg" alt="fylo logo" />
+        <div class="controls">
+          <i class="icon">
+            <img
+              src="./images/icon-document.svg"
+              alt="an icon for a document"
+            />
+          </i>
+          <i class="icon"
+            ><img src="./images/icon-folder.svg" alt="an icon for a folder"
+          /></i>
+          <i class="icon"><img src="./images/icon-upload.svg" alt="an icon for upload" /></i>
+        </div>
+      </section>
+      <section class="status-pane">
+       
+          <p>You’ve used 815 GB of your storage</p>
+           <div class="storage-status">
+             <div class="storage-meter">
+               <Input class="range" type="range" name "storage" id="range_storage" value="0" min="0" max="1000" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" oninput="range_storage_disp.value = range_storage.max - range_storage.value"></Input>
+             </div>
+             
+             <p id="rangeValue1">0GB</p>
+             <p id="rangeValue2">1000GB</p>
+
+            </div>
+            
+        <div class="spotlight">
+          <p><output id="range_storage_disp">185</output>GB Left</p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mannyficient</a>.
+    </div>
+  </footer>
+</html>
