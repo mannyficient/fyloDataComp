@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/mannyficient/fyloDataComp)
+- Live Site URL: (https://mannyficient.github.io/fyloDataComp/)
 
 ## My process
 
@@ -38,7 +38,9 @@ Users should be able to:
 
 ### What I learned
 
-How to animate items
+using input type = range 
+making th output on the page without javascript 
+increasing knowledge on layout
 
 lenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.\*\*
 
